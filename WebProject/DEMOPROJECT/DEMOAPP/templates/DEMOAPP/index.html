@@ -35,13 +35,23 @@
 							</ul>
 						</nav>
 
-					<!-- Banner -->
+					{% comment %}<!-- Banner -->
 						<section id="banner">
 							<header>
 								<h2>Clique</h2>
 								<p>A project based STEM Community</p>
 							</header>
-						</section>
+                            
+						</section>{% endcomment %}
+
+                    <img src="{% static 'images/7.png' %}" style="background-position: center center;
+		background-size: auto 100%;
+		background-repeat: repeat;
+		text-align: center;
+		position: relative;
+		padding: 8em 0;
+		margin: 4em 0 0 0;"/>
+
 
 					<!-- Intro -->
 						<section id="intro" class="container">
@@ -246,15 +256,31 @@
 				</section>
 
 		</div>
+                            <!-- Tags ade by Dhwani -->
+                        </div>
+                    </div>
+                </section>
+        </div>
+
+         <!-- Tags ade by Dhwani -->
 
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+{#			<script src="assets/js/jquery.min.js"></script>#}
+{#			<script src="assets/js/jquery.dropotron.min.js"></script>#}
+{#			<script src="assets/js/browser.min.js"></script>#}
+{#			<script src="assets/js/breakpoints.min.js"></script>#}
+{#			<script src="assets/js/util.js"></script>#}
+{#			<script src="assets/js/main.js"></script>#}
+
+
+             <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.dropotron.min.js' %}"></script>
+			<script src="{% static 'assets/js/browser.min.js' %}"></script>
+			<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
 
 	</body>
+
 </html>
